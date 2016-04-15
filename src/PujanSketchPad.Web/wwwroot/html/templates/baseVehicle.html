@@ -1,0 +1,72 @@
+﻿<div class="gridContainer">
+    <table id="baseVehicleTable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>CR</th>
+                <th>YearFromId</th>
+                <th>MakeId</th>
+                <th>MakeName</th>
+                <th>ModelId</th>
+                <th>ModelName</th>
+                <th>SeriesId</th>
+                <th>SeriesName</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="#baseVehicle of baseVehicles #i=index">
+                <td>{{baseVehicle.Id}}</td>
+                <td>{{baseVehicle.CR}}</td>
+                <td>{{baseVehicle.YearFromId}}</td>
+                <td>{{baseVehicle.MakeId}}</td>
+                <td>{{baseVehicle.MakeName}}</td>
+                <td>{{baseVehicle.ModelId}}</td>
+                <td>{{baseVehicle.ModelName}}</td>
+                <td>{{baseVehicle.SeriesId}}</td>
+                <td>{{baseVehicle.SeriesName}}</td>
+                <td><button type="button" (click)="removeBaseVehicle(i)">Delete</button></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td><input [(ngModel)]="baseVehicleModel.CR" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.YearFromId" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.MakeId" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.MakeName" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.ModelId" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.ModelName" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.SeriesId" /></td>
+                <td><input [(ngModel)]="baseVehicleModel.SeriesName" /></td>
+                <td><button type="button" (click)="addBaseVehicle(baseVehicleModel)">Add</button></td>
+            </tr>
+        </tbody> 
+    </table>
+    <!--<form (submit)="addBaseVehicle(baseVehicleModel)">
+        CR
+        <input [(ngModel)] ="baseVehicleModel.CR"/>
+        <br />
+        Year
+        <input [(ngModel)]="baseVehicleModel.YearFromId" />
+        <br />
+        MakeId
+        <input [(ngModel)]="baseVehicleModel.MakeId" />
+        <br />
+        Make Name
+        <input [(ngModel)]="baseVehicleModel.MakeName" />
+        <br />
+        Model Id
+        <input [(ngModel)]="baseVehicleModel.ModelId" />
+        <br />
+        Model Name
+        <input [(ngModel)]="baseVehicleModel.ModelName" />
+        <br />
+        Series Id
+        <input [(ngModel)]="baseVehicleModel.SeriesId" />
+        <br />
+        Make Name
+        <input [(ngModel)]="baseVehicleModel.SeriesName" />
+        <br />
+        
+        <button type="submit">Add Vehicle</button>
+    </form>-->
+</div>

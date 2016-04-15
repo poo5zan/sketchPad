@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular2',
+1 verbose cli   '--save' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of D:\WorkingDir\PujanSketchPad\package.json
+5 verbose readDependencies loading dependencies from D:\WorkingDir\PujanSketchPad\package.json
+6 silly cache add args [ 'angular2', null ]
+7 verbose cache add spec angular2
+8 silly cache add parsed spec { raw: 'angular2',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'angular2',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed angular2@*
+10 verbose addNamed "*" is a valid semver range for angular2
+11 silly addNameRange { name: 'angular2', range: '*', hasData: false }
+12 silly mapToRegistry name angular2
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/angular2
+16 verbose addNameRange registry:https://registry.npmjs.org/angular2 not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/angular2
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 12:17:39 PM
+20 verbose request id 3d41d75f12f271f3
+21 verbose etag "UYO6MBCF5DD2M4OG86EZOVJC"
+22 http request GET https://registry.npmjs.org/angular2
+23 http 304 https://registry.npmjs.org/angular2
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 12 Apr 2016 06:32:39 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: '"UYO6MBCF5DD2M4OG86EZOVJC"',
+24 silly get     age: '259',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sin6920-SIN',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '3',
+24 silly get     'x-timer': 'S1460442759.978186,VS0,VE0',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag https://registry.npmjs.org/angular2 from cache
+26 verbose get saving angular2 to C:\Users\dell\AppData\Roaming\npm-cache\registry.npmjs.org\angular2\.cache.json
+27 silly addNameRange number 2 { name: 'angular2', range: '*', hasData: true }
+28 silly addNameRange versions [ 'angular2',
+28 silly addNameRange   [ '2.0.0-alpha.8.dev',
+28 silly addNameRange     '2.0.0-alpha.8.prod',
+28 silly addNameRange     '2.0.0-alpha.11',
+28 silly addNameRange     '2.0.0-alpha.12',
+28 silly addNameRange     '2.0.0-alpha.13',
+28 silly addNameRange     '2.0.0-alpha.14',
+28 silly addNameRange     '2.0.0-alpha.15',
+28 silly addNameRange     '2.0.0-alpha.16',
+28 silly addNameRange     '2.0.0-alpha.17',
+28 silly addNameRange     '2.0.0-alpha.18',
+28 silly addNameRange     '2.0.0-alpha.19',
+28 silly addNameRange     '2.0.0-alpha.20',
+28 silly addNameRange     '2.0.0-alpha.21',
+28 silly addNameRange     '2.0.0-alpha.22',
+28 silly addNameRange     '2.0.0-alpha.23',
+28 silly addNameRange     '2.0.0-alpha.24',
+28 silly addNameRange     '2.0.0-alpha.25',
+28 silly addNameRange     '2.0.0-alpha.26',
+28 silly addNameRange     '2.0.0-alpha.27',
+28 silly addNameRange     '2.0.0-alpha.28',
+28 silly addNameRange     '2.0.0-alpha.29',
+28 silly addNameRange     '2.0.0-alpha.30',
+28 silly addNameRange     '2.0.0-alpha.31',
+28 silly addNameRange     '2.0.0-alpha.32',
+28 silly addNameRange     '2.0.0-alpha.33',
+28 silly addNameRange     '2.0.0-alpha.34',
+28 silly addNameRange     '2.0.0-alpha.35',
+28 silly addNameRange     '2.0.0-alpha.36',
+28 silly addNameRange     '2.0.0-alpha.37',
+28 silly addNameRange     '2.0.0-alpha.38',
+28 silly addNameRange     '2.0.0-alpha.39',
+28 silly addNameRange     '2.0.0-alpha.40',
+28 silly addNameRange     '2.0.0-alpha.41',
+28 silly addNameRange     '2.0.0-alpha.42',
+28 silly addNameRange     '2.0.0-alpha.44',
+28 silly addNameRange     '2.0.0-alpha.45',
+28 silly addNameRange     '2.0.0-alpha.46',
+28 silly addNameRange     '2.0.0-alpha.47',
+28 silly addNameRange     '2.0.0-alpha.48',
+28 silly addNameRange     '2.0.0-alpha.49',
+28 silly addNameRange     '2.0.0-alpha.50',
+28 silly addNameRange     '2.0.0-alpha.51',
+28 silly addNameRange     '2.0.0-alpha.52',
+28 silly addNameRange     '2.0.0-alpha.53',
+28 silly addNameRange     '2.0.0-alpha.54',
+28 silly addNameRange     '2.0.0-alpha.55',
+28 silly addNameRange     '2.0.0-beta.0',
+28 silly addNameRange     '2.0.0-beta.1',
+28 silly addNameRange     '2.0.0-beta.2',
+28 silly addNameRange     '2.0.0-beta.3',
+28 silly addNameRange     '2.0.0-beta.4',
+28 silly addNameRange     '2.0.0-beta.5',
+28 silly addNameRange     '2.0.0-beta.6',
+28 silly addNameRange     '2.0.0-beta.7',
+28 silly addNameRange     '2.0.0-beta.8',
+28 silly addNameRange     '2.0.0-beta.9',
+28 silly addNameRange     '2.0.0-beta.10',
+28 silly addNameRange     '2.0.0-beta.11',
+28 silly addNameRange     '2.0.0-beta.12',
+28 silly addNameRange     '2.0.0-beta.13',
+28 silly addNameRange     '2.0.0-beta.14' ] ]
+29 verbose stack Error: No compatible version found: angular2@'*'
+29 verbose stack Valid install targets:
+29 verbose stack ["2.0.0-alpha.8.dev","2.0.0-alpha.8.prod","2.0.0-alpha.11","2.0.0-alpha.12","2.0.0-alpha.13","2.0.0-alpha.14","2.0.0-alpha.15","2.0.0-alpha.16","2.0.0-alpha.17","2.0.0-alpha.18","2.0.0-alpha.19","2.0.0-alpha.20","2.0.0-alpha.21","2.0.0-alpha.22","2.0.0-alpha.23","2.0.0-alpha.24","2.0.0-alpha.25","2.0.0-alpha.26","2.0.0-alpha.27","2.0.0-alpha.28","2.0.0-alpha.29","2.0.0-alpha.30","2.0.0-alpha.31","2.0.0-alpha.32","2.0.0-alpha.33","2.0.0-alpha.34","2.0.0-alpha.35","2.0.0-alpha.36","2.0.0-alpha.37","2.0.0-alpha.38","2.0.0-alpha.39","2.0.0-alpha.40","2.0.0-alpha.41","2.0.0-alpha.42","2.0.0-alpha.44","2.0.0-alpha.45","2.0.0-alpha.46","2.0.0-alpha.47","2.0.0-alpha.48","2.0.0-alpha.49","2.0.0-alpha.50","2.0.0-alpha.51","2.0.0-alpha.52","2.0.0-alpha.53","2.0.0-alpha.54","2.0.0-alpha.55","2.0.0-beta.0","2.0.0-beta.1","2.0.0-beta.2","2.0.0-beta.3","2.0.0-beta.4","2.0.0-beta.5","2.0.0-beta.6","2.0.0-beta.7","2.0.0-beta.8","2.0.0-beta.9","2.0.0-beta.10","2.0.0-beta.11","2.0.0-beta.12","2.0.0-beta.13","2.0.0-beta.14"]
+29 verbose stack
+29 verbose stack     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:274:12)
+29 verbose stack     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:253:17)
+29 verbose stack     at setData (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:230:5)
+29 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+29 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+29 verbose stack     at fixName (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:29:5)
+29 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:173:7)
+29 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+30 verbose cwd D:\WorkingDir\PujanSketchPad
+31 error Windows_NT 6.1.7601
+32 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular2" "--save"
+33 error node v0.12.7
+34 error npm  v2.11.3
+35 error code ETARGET
+36 error notarget No compatible version found: angular2@'*'
+36 error notarget Valid install targets:
+36 error notarget ["2.0.0-alpha.8.dev","2.0.0-alpha.8.prod","2.0.0-alpha.11","2.0.0-alpha.12","2.0.0-alpha.13","2.0.0-alpha.14","2.0.0-alpha.15","2.0.0-alpha.16","2.0.0-alpha.17","2.0.0-alpha.18","2.0.0-alpha.19","2.0.0-alpha.20","2.0.0-alpha.21","2.0.0-alpha.22","2.0.0-alpha.23","2.0.0-alpha.24","2.0.0-alpha.25","2.0.0-alpha.26","2.0.0-alpha.27","2.0.0-alpha.28","2.0.0-alpha.29","2.0.0-alpha.30","2.0.0-alpha.31","2.0.0-alpha.32","2.0.0-alpha.33","2.0.0-alpha.34","2.0.0-alpha.35","2.0.0-alpha.36","2.0.0-alpha.37","2.0.0-alpha.38","2.0.0-alpha.39","2.0.0-alpha.40","2.0.0-alpha.41","2.0.0-alpha.42","2.0.0-alpha.44","2.0.0-alpha.45","2.0.0-alpha.46","2.0.0-alpha.47","2.0.0-alpha.48","2.0.0-alpha.49","2.0.0-alpha.50","2.0.0-alpha.51","2.0.0-alpha.52","2.0.0-alpha.53","2.0.0-alpha.54","2.0.0-alpha.55","2.0.0-beta.0","2.0.0-beta.1","2.0.0-beta.2","2.0.0-beta.3","2.0.0-beta.4","2.0.0-beta.5","2.0.0-beta.6","2.0.0-beta.7","2.0.0-beta.8","2.0.0-beta.9","2.0.0-beta.10","2.0.0-beta.11","2.0.0-beta.12","2.0.0-beta.13","2.0.0-beta.14"]
+36 error notarget
+36 error notarget This is most likely not a problem with npm itself.
+36 error notarget In most cases you or one of your dependencies are requesting
+36 error notarget a package version that doesn't exist.
+37 verbose exit [ 1, true ]
